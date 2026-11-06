@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Tinko</title>
+  <meta name="description" content="Tinko'nun ücretsiz kartları, şablonları ve bağlantıları.">
+  <meta name="theme-color" content="#0A0A0A">
+  <meta property="og:title" content="Tinko">
+  <meta property="og:description" content="Ücretsiz kavram kartları ve çalışma şablonları.">
+  <meta property="og:image" content="https://tinkoflix.github.io/gorsel/pp.jpg">
+  <link rel="icon" href="gorsel/pp.jpg">
+  <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+  <main class="sayfa">
+    <header class="profil" id="profil"></header>
+    <nav class="sosyal" id="sosyal" aria-label="Hesaplar"></nav>
+    <section class="ekstra" id="ekstra" hidden></section>
+
+    <section class="bolum" id="kartlar-bolum" aria-labelledby="kartlar-baslik">
+      <div class="bolum-bas">
+        <h2 id="kartlar-baslik">Ücretsiz kartlar</h2>
+        <p>Videolarda anlattıklarımın bir sayfalık hali. İndir, yazdır, arkadaşına at.</p>
+      </div>
+      <div class="kartlar" id="kartlar"></div>
+      <details class="arsiv" id="arsiv" hidden>
+        <summary><span id="arsiv-baslik">Arşiv</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6l6 -6"/></svg></summary>
+        <ul id="arsiv-liste"></ul>
+      </details>
+    </section>
+
+    <footer class="alt">
+      <p>Tinko · Bu sayfada çerez ve takip yok.</p>
+    </footer>
+  </main>
+  <script src="veri.js"></script>
+  <script src="uygulama.js"></script>
+</body>
+</html>
