@@ -26,7 +26,19 @@ window.TINKO = {
 
   // kapak.tur = videonun konsepti: sohbet (grup sohbeti) · dilekce (istifa / izin) · haber (son dakika)
   //             kural (kural değişti) · sablon (Tinko Taktik) · gorsel (src) · yoksa kanca kesikleri
-  // Şimdilik boş: kartlar hazır oldukça buraya eklenir (biçim örnekleri taslak_kartlar.js içinde).
-  // Liste boşken "Ücretsiz kartlar" bölümü sayfada hiç görünmez.
-  kartlar: [],
+  // Biçim örnekleri taslak_kartlar.js içinde. Liste boşken "Ücretsiz kartlar" bölümü sayfada hiç görünmez.
+  kartlar: [
+    {
+      id: "sinav-haftasi-kontrol",
+      ders: "Tinko Taktik",
+      sinif: "Yazdır, kullan",
+      ust: "Sınav haftası",
+      baslik: "Sınav Haftası Kontrol Listesi",
+      ozet: "Sınavdan 1 hafta önce, son 3 gün ve sınav anı için yapılacaklar tek sayfada. Yazdır, her gün birini seç.",
+      kapak: { tur: "gorsel", src: "gorsel/kontrol_listesi.jpg" },
+      pdf: "kartlar/sinav_haftasi_kontrol_listesi.pdf",
+      video: "https://youtu.be/0Is7sng9Lhw", // "Sınav Haftası İçin İhtiyacın Olan TEK Video!" (PDF'teki QR da buraya)
+      durum: "hazir",
+    },
+  ],
 };

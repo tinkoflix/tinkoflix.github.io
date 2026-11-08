@@ -248,8 +248,8 @@ svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width:
 .dugme {
   --pah: 10px;
   display: inline-flex; align-items: center; justify-content: center; gap: 8px;
-  min-height: 48px; padding: 0 18px; flex: 1 1 140px;
-  font-weight: 900; font-size: 16px;
+  min-height: 48px; padding: 0 14px; flex: 1 1 140px;
+  font-weight: 900; font-size: 16px; white-space: nowrap;
   transition: transform .15s, background .2s;
 }
 .dugme svg { width: 20px; height: 20px; }
